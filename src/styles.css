@@ -1,0 +1,27 @@
+.linkedin-logo {
+    width: 50px;
+    border-radius: 150px;
+}
+.linkedin-logo:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(2);
+}
+.netlify-logo {
+    width: 50px;
+    border-radius: 20px;
+}
+.netlify-logo:hover {
+    transition: transform 150ms ease-in-out;
+    transform: scale(1.5);
+}
+.github-logo {
+    width: 50px;
+    border-radius: 200px;
+}
+.github-logo:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(2);
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
