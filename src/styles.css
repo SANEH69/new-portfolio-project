@@ -13,6 +13,18 @@ button {
     background-color: #6C757D;
     color: #FFFFFF;
 }
+.portfolio {
+    background-color: #007BFF;
+    padding-top: 55px;
+}
+.clock {
+    background-color: #878D91;
+    padding-top: 80px;
+}
+.weather {
+    background-color: #14111C;
+    padding-top: 80px;
+}
 .linkedin-logo {
     width: 50px;
     border-radius: 150px;
