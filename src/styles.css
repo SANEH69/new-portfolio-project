@@ -9,6 +9,7 @@ button {
     display: block;
     margin: auto;
     border: 1px solid #F0F0F0;
+    border-radius: 5px;
     background-color: black;
     color: #FFFFFF;
 }
@@ -39,4 +40,8 @@ button {
 .logo {
     display: flex;
     justify-content: space-evenly;
+}
+img {
+    width: 500px;
+    border-radius: 5px;
 }
