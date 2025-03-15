@@ -3,6 +3,14 @@ body{
 }
 .black {
     background-color: black;
+    color: #FFFFFF;
+}
+button {
+    display: block;
+    margin: auto;
+    border: 1px solid #F0F0F0;
+    background-color: black;
+    color: #FFFFFF;
 }
 .linkedin-logo {
     width: 50px;
@@ -10,7 +18,7 @@ body{
 }
 .linkedin-logo:hover {
     transition: transform 0.3s ease-in-out;
-    transform: scale(2);
+    transform: scale(1.5);
 }
 .netlify-logo {
     width: 50px;
@@ -26,7 +34,7 @@ body{
 }
 .github-logo:hover {
     transition: transform 0.3s ease-in-out;
-    transform: scale(2);
+    transform: scale(1.5);
 }
 .logo {
     display: flex;
