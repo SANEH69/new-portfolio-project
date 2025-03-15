@@ -1,3 +1,9 @@
+body{
+    background-color: #FFFFFF;
+}
+.black {
+    background-color: black;
+}
 .linkedin-logo {
     width: 50px;
     border-radius: 150px;
@@ -25,3 +31,4 @@
 .logo {
     display: flex;
     justify-content: space-evenly;
+}
