@@ -33,6 +33,17 @@ button {
         margin: auto;
     }
 }
+.message {
+    padding: 50px 100px;
+}
+.email {
+    padding: 10px 100px;
+}
+.forms {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 20px 100px;
+}
 .portfolio {
     background-color: #007BFF;
     padding-top: 55px;
