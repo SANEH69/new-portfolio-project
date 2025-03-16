@@ -41,6 +41,23 @@ button {
         width: fit-content;
     }
 }
+label {
+    font-weight: bolder;
+    font-size: larger; 
+}
+.email-address {
+    display: block;
+    margin: auto;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    color: #000000;
+    line-height: 5px;
+}
+.email-address:hover {
+    text-decoration: none;
+    color: #6C757D;
+}
 .email {
     width: fit-content;
     padding: 5px 10px;
