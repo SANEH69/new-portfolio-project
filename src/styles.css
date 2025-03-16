@@ -41,6 +41,12 @@ button {
         width: fit-content;
     }
 }
+.profile-image {
+    width: 500px;
+}
+.container img {
+    width: 500px;
+}
 label {
     font-weight: bolder;
     font-size: larger; 
@@ -95,7 +101,7 @@ label {
 }
 .github-logo {
     width: 50px;
-    border-radius: 200px;
+    border-radius: 20px;
 }
 .github-logo:hover {
     transition: transform 0.3s ease-in-out;
@@ -104,8 +110,4 @@ label {
 .logo {
     display: flex;
     justify-content: space-evenly;
-}
-img {
-    width: 500px;
-    border-radius: 5px;
 }
