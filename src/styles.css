@@ -40,6 +40,9 @@ button {
         margin: auto 0px;
         width: fit-content;
     }
+    .inner {
+    width: fit-content;
+}
 }
 .profile-image {
     width: 500px;
