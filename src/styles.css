@@ -18,6 +18,7 @@ button {
 }
 .outer-container {
     padding: 60px 20px;
+
   }
 @media (max-width : 900px) {
     h1, h2, h3, p {
@@ -118,6 +119,9 @@ label {
 .logo {
     display: flex;
     justify-content: space-evenly;
+}
+nav {
+    padding: 20px 0px;
 }
 nav ul {
     padding: 0;
