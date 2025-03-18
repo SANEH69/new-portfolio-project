@@ -18,12 +18,18 @@ button {
 }
 .outer-container {
     padding: 60px 20px;
-
+  }
+  .inner-container {
+    margin: 30px;
   }
 @media (max-width : 900px) {
     h1, h2, h3, p {
         text-align: center;
         font-size: 15px;
+    }
+    .inner-container {
+        text-align: center;
+        padding: 0;
     }
     .profile-image {
         display: block;
