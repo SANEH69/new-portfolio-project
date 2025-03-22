@@ -1,5 +1,6 @@
 body{
     background-color: #FFFFFF;
+    overflow-x: scroll;
 }
 .black {
     background-color: black;
@@ -18,6 +19,7 @@ button {
 }
 .outer-container {
     padding: 60px 20px;
+    overflow-x: hidden;
   }
   .inner-container {
     margin: 30px;
@@ -27,9 +29,14 @@ button {
         text-align: center;
         font-size: 15px;
     }
-    .inner-container {
-        text-align: center;
+    .outer-container {
+        width: 100%;
         padding: 0;
+        margin: 0;
+    }
+    .inner-container {
+        padding: 0;
+        margin: 0;
     }
     .profile-image {
         display: block;
@@ -41,9 +48,9 @@ button {
         margin: 0px auto;
     }
     .inner-container img {
-        width: 300px;
         display: block;
-        margin: auto;
+        margin: auto 5px;
+        max-width: 100%;
     }
     .forms {
         padding: 10px 50px;
@@ -60,7 +67,7 @@ button {
     border-left: 10px solid var(--primary-color);
 }
 .inner-container img {
-    width: 500px;
+    width: 400px;
 }
 label {
     font-weight: bolder;
