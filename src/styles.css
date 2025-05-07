@@ -6,14 +6,6 @@ body{
 :root {
     --primary-color: #6C757D;
 }
-button {
-    display: block;
-    margin: auto;
-    border: 1px solid #F0F0F0;
-    border-radius: 5px;
-    background-color: var(--primary-color);
-    color: #FFFFFF;
-}
 .outer-container {
     padding: 60px 20px;
     overflow-x: hidden;
@@ -21,43 +13,6 @@ button {
   .inner-container {
     margin: 30px;
   }
-@media (max-width : 900px) {
-    h1, h2, h3, p {
-        text-align: center;
-        font-size: 15px;
-    }
-    .outer-container {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    .inner-container {
-        padding: 0;
-        margin: 0;
-    }
-    .profile-image {
-        display: block;
-        margin: auto;
-        max-width: 200px;
-    }
-    .projects-button, .contact-button {
-        display: block;
-        margin: 0px auto;
-    }
-    .inner-container img {
-        display: block;
-        margin: auto 5px;
-        max-width: 100%;
-    }
-    .forms {
-        padding: 10px 50px;
-    }
-    .email {
-        padding: 2px;
-        margin: auto 0px;
-        width: fit-content;
-    }
-}
 .profile-image {
     width: 400px;
     border-radius: 5px;
@@ -102,27 +57,11 @@ label {
     background-color: #14111C;
     padding-top: 80px;
 }
-.linkedin-logo {
+.linkedin-logo, .github-logo, .netlify-logo {
     width: 50px;
     border-radius: 150px;
 }
-.linkedin-logo:hover {
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.5);
-}
-.netlify-logo {
-    width: 50px;
-    border-radius: 20px;
-}
-.netlify-logo:hover {
-    transition: transform 150ms ease-in-out;
-    transform: scale(1.5);
-}
-.github-logo {
-    width: 50px;
-    border-radius: 20px;
-}
-.github-logo:hover {
+.linkedin-logo:hover, .github-logo:hover, .netlify-logo:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.5);
 }
@@ -155,3 +94,40 @@ nav ul {
   nav li.active a {
     text-decoration: none;
   }
+  @media (max-width : 900px) {
+    h1, h2, h3, p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .outer-container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .inner-container {
+        padding: 0;
+        margin: 0;
+    }
+    .profile-image {
+        display: block;
+        margin: auto;
+        max-width: 200px;
+    }
+    .projects-button, .contact-button {
+        display: block;
+        margin: 0px auto;
+    }
+    .inner-container img {
+        display: block;
+        margin: auto 5px;
+        max-width: 100%;
+    }
+    .forms {
+        padding: 10px 50px;
+    }
+    .email {
+        padding: 2px;
+        margin: auto 0px;
+        width: fit-content;
+    }
+}
