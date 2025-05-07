@@ -46,18 +46,6 @@ label {
     border: 1px solid #000000;
     border-radius: 5px;
 }
-.portfolio {
-    background-color: #007BFF;
-    padding-top: 55px;
-}
-.clock {
-    background-color: #878D91;
-    padding-top: 80px;
-}
-.weather {
-    background-color: #14111C;
-    padding-top: 80px;
-}
 .linkedin-logo, .github-logo, .netlify-logo {
     width: 50px;
     border-radius: 150px;
